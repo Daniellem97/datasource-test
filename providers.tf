@@ -1,13 +1,10 @@
 terraform {
   required_providers {
-    aws = {
-      source  = "hashicorp/aws"
-      version = "~> 3.71.0"  # Changed version constraint format
+    spacelift = {
+      source  = "spacelift-io/spacelift"
+      version = "1.9.3"
     }
   }
 }
-provider "aws" {
-}
 
-provider "azurerm" {
-}
+provider "spacelift" {}
