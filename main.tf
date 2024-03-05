@@ -8,7 +8,7 @@ resource "spacelift_stack" "testing" {
   repository        = "test"
   branch            = "main"
   terraform_version = "1.5.7"
-  space_id = "metabasetest-01HBRT2GZTJEVVA4APJDNTNSV1"
+  space_id = "metabasetest2-01HR4MYZWE0APZGRDR21CCDB45"
   # GitHub Enterprise settings for the stack
   gitlab {
     namespace = "Daniellem97"
