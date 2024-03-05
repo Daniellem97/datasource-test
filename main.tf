@@ -4,7 +4,7 @@ data "spacelift_gitlab_integration" "this" {
 
 # Define the stack in Spacelift
 resource "spacelift_stack" "testing" {
-  name              = "gitlab-test"
+  name              = "gitlab-test2"
   repository        = "test"
   branch            = "main"
   terraform_version = "1.5.7"
